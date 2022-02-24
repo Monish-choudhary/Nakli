@@ -10,6 +10,7 @@ export class AppComponent implements OnInit{
   ob: Observable<any> | undefined;
 
   constructor() {
+    console.log("HAPPY PERSON");
     // create the observable stream
     this.ob = new Observable<any>(
       obs => {
